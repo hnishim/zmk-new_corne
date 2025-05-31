@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: RETURN, h: SYMBOL}
   - {t: LANG1, h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - {t: 'Gui+$$mdi:backspace$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
