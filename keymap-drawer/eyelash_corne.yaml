@@ -99,7 +99,7 @@ layers:
   - {type: held}
   - $$mdi:backspace-reverse-outline$$
   SYMBOL:
-  - KP LEFT PARENTHESIS
+  - (
   - KP ASTERISK
   - KP 7
   - KP 8
@@ -112,7 +112,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP RIGHT PARENTHESIS
+  - )
   - KP SLASH
   - KP 4
   - KP 5
