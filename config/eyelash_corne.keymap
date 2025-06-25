@@ -63,34 +63,22 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                                     &mmv MOVE_UP                     &kp N6     &kp N7         &kp N8     &kp N9     &kp N0    &kp EQUAL
-&trans  &none     &none   &none     &none       &none                      &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp LBKT  &kp RBKT
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LPAR   &kp RPAR  &kp PLUS
-                          &trans    &trans      &trans                                                                      &trans     &trans         &kp DEL
+&trans  &kp N1    &kp N2         &kp N3     &kp N4          &kp N5                                         &mmv MOVE_UP                     &kp N6     &kp N7         &kp N8     &kp N9     &kp N0    &kp EQUAL
+&trans  &none     &kp PAGE_DOWN  &kp PG_UP  &kp LEFT_BRACE  &kp RIGHT_BRACE                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &kp LBKT  &kp RBKT
+&trans  &kp EXCL  &kp AT         &kp HASH   &kp DOLLAR      &kp PERCENT      &kp C_MUTE                    &mmv MOVE_DOWN                   &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LPAR   &kp RPAR  &kp PLUS
+                                 &trans     &trans          &trans                                                                          &trans     &trans         &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "KEYPAD";
             bindings = <
 &kp LEFT_PARENTHESIS   &kp KP_ASTERISK  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS                            &mmv MOVE_UP                     &none           &none       &none    &none         &none         &none
 &kp RIGHT_PARENTHESIS  &kp KP_SLASH     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none           &none       &none    &none         &none         &none
 &kp KP_EQUAL           &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT    &trans                    &mmv MOVE_DOWN                   &bt BT_CLR_ALL  &bt BT_CLR  &none    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 1
                                                          &trans           &trans           &trans                                                                   &trans          &trans      &kp DEL
-            >;
-
-            sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_3 {
-            display-name = "Fn";
-            bindings = <
-&studio_unlock  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&trans          &trans      &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&trans          &sys_reset  &trans     &bootloader  &trans     &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                       &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
