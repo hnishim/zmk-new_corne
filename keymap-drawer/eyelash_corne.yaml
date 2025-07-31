@@ -106,12 +106,12 @@ layers:
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - {h: '4', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - KP MULTIPLY
+  - (
   - KP 7
   - KP 8
   - KP 9
-  - KP MINUS
-  - (
+  - KP DOT
+  - KP EQUAL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -121,12 +121,12 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - KP SLASH
+  - )
   - KP 4
   - KP 5
   - KP 6
-  - KP PLUS
-  - )
+  - KP MULTIPLY
+  - KP MINUS
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -139,11 +139,11 @@ layers:
   - KP 1
   - KP 2
   - KP 3
-  - KP DOT
-  - KP EQUAL
+  - KP DIVIDE
+  - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - KP COMMA
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
