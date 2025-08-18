@@ -135,7 +135,7 @@ layers:
   - F5
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - ^
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
