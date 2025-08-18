@@ -91,10 +91,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans                       &kp N1                         &kp N2              &kp N3                   &kp N4                 &kp N5                                                           &mmv MOVE_UP                     &kp N6                              &kp N7                 &kp N8                 &kp N9                &kp N0                   &kp PLUS
-&mt LEFT_CONTROL LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &hml LEFT_ALT HOME  &hml LEFT_COMMAND PG_UP  &hml LEFT_SHIFT PG_DN  &hml LS(LA(LC(LEFT_COMMAND))) END                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &hmr LS(LA(LC(LEFT_COMMAND))) LEFT  &hmr RIGHT_SHIFT DOWN  &hmr RIGHT_COMMAND UP  &hmr RIGHT_ALT RIGHT  &hmr RIGHT_CONTROL LBKT  &kp RBKT
-&trans                       &kp EXCL                       &kp AT              &kp HASH                 &kp DOLLAR             &kp PERCENT                        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp CARET                           &kp AMPERSAND          &kp ASTRK              &kp LPAR              &kp RPAR                 &kp BACKSLASH
-                                                                                &trans                   &trans                 &trans                                                                                            &trans                              &trans                 &kp DEL
+&trans                       &kp N1                         &kp N2              &kp N3                   &kp N4                 &kp N5                                                           &mmv MOVE_UP                     &kp N6     &kp N7         &kp N8     &kp N9     &kp N0                   &kp PLUS
+&mt LEFT_CONTROL LEFT_BRACE  &hml LEFT_CONTROL RIGHT_BRACE  &hml LEFT_ALT HOME  &hml LEFT_COMMAND PG_UP  &hml LEFT_SHIFT PG_DN  &hml LS(LA(LC(LEFT_COMMAND))) END                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &hmr RIGHT_CONTROL LBKT  &kp RBKT
+&trans                       &kp EXCL                       &kp AT              &kp HASH                 &kp DOLLAR             &kp PERCENT                        &kp C_MUTE                    &mmv MOVE_DOWN                   &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LPAR   &kp RPAR                 &kp BACKSLASH
+                                                                                &trans                   &trans                 &trans                                                                                            &trans     &trans         &kp DEL
             >;
 
             sensor-bindings = <&scroll_encoder>;
