@@ -77,7 +77,7 @@
         compatible = "zmk,combos";
 
         Layer3 {
-            bindings = <&to 3>;
+            bindings = <&mo 3>;
             key-positions = <28 33>;
         };
     };
