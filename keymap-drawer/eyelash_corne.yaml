@@ -72,10 +72,10 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:arrow-left-bold$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-down-bold$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:arrow-up-bold$$', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - {t: '[', h: '$$mdi:apple-keyboard-control$$', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
