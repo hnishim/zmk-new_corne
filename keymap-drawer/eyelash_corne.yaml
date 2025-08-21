@@ -199,3 +199,22 @@ layers:
 combos:
 - p: [28, 33]
   k: '3'
+  l: [QWERTY]
+- p: [38, 39]
+  k: Alt+<
+  l: [QWERTY]
+- p: [39, 40]
+  k: Alt+(
+  l: [QWERTY]
+- p: [26, 27]
+  k: Alt+[
+  l: [QWERTY]
+- p: [40, 41]
+  k: Alt+'
+  l: [QWERTY]
+- p: [26, 25]
+  k: Alt+{
+  l: [QWERTY]
+- p: [11, 12]
+  k: Alt+"
+  l: [QWERTY]

@@ -555,6 +555,30 @@ rect.held, rect.combo.held {
 <a href="#x_x">
 <text x="168" y="157" class="combo tap layer-activator">3</text>
 </a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
+<text x="812" y="143" class="combo tap">Alt+&lt;</text>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="854" y="141" width="28" height="26" class="combo"/>
+<text x="868" y="154" class="combo tap">Alt+(</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
+<text x="924" y="105" class="combo tap">Alt+[</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">Alt+&#x27;</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="854" y="85" width="28" height="26" class="combo"/>
+<text x="868" y="98" class="combo tap">Alt+{</text>
+</g>
+<g class="combo combopos-6">
+<rect rx="6" ry="6" x="910" y="36" width="28" height="26" class="combo"/>
+<text x="924" y="49" class="combo tap">Alt+&quot;</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -826,13 +850,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:backspace-reverse-outline" xlink:href="#mdi:backspace-reverse-outline" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:backspace-reverse-outline"/>
 </g>
-<g class="combo combopos-0">
-<path d="M168,157 l-121,3" class="combo"/>
-<path d="M168,157 l121,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="144" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="168" y="157" class="combo tap layer-activator">3</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-KEYPAD">
@@ -1116,13 +1133,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M168,157 l-121,3" class="combo"/>
-<path d="M168,157 l121,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="144" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="168" y="157" class="combo tap layer-activator">3</text>
-</a></g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-3">
@@ -1374,13 +1384,6 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g class="combo combopos-0">
-<path d="M168,157 l-121,3" class="combo"/>
-<path d="M168,157 l121,-3" class="combo"/>
-<rect rx="6" ry="6" x="154" y="144" width="28" height="26" class="combo"/>
-<a href="#x_x">
-<text x="168" y="157" class="combo tap layer-activator">3</text>
-</a></g>
 </g>
 </g>
 </svg>
