@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-esc$$', h: 'Meh+$$mdi:apple-keyboard-command$$'}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - E
@@ -218,3 +218,5 @@ combos:
 - p: [11, 12]
   k: Alt+"
   l: [QWERTY]
+- p: [13, 14]
+  k: Alt+`
