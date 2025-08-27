@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '''', s: '"'}
-  - '&sticky_shift_and_caps'
-  - {t: '$$mdi:keyboard-space$$', h: KEYPAD}
-  - {t: LANG2, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: LANG1, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: RETURN, h: NUMBER}
+  - {t: LANG2, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-space$$', h: KEYPAD}
+  - {t: '$$mdi:keyboard-space$$', h: KEYPAD}
+  - {t: RETURN, h: NUMBER}
+  - {t: LANG1, h: '$$mdi:apple-keyboard-shift$$'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -93,11 +93,11 @@ layers:
   - )
   - {t: \, s: '|'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:transfer$$', type: trans}
   KEYPAD:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,11 +142,11 @@ layers:
   - KP DIVIDE
   - KP PLUS
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {t: ',', s: <}
   - KP DOT
-  - {t: '$$mdi:transfer$$', type: trans}
   BT:
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
