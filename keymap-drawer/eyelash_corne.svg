@@ -556,34 +556,6 @@ rect.held, rect.combo.held {
 <a href="#BT">
 <text x="168" y="157" class="combo tap layer-activator">BT</text>
 </a></g>
-<g class="combo combopos-1">
-<rect rx="6" ry="6" x="798" y="130" width="28" height="26" class="combo"/>
-<text x="812" y="143" class="combo tap">Alt+&lt;</text>
-</g>
-<g class="combo combopos-2">
-<rect rx="6" ry="6" x="854" y="141" width="28" height="26" class="combo"/>
-<text x="868" y="154" class="combo tap">Alt+(</text>
-</g>
-<g class="combo combopos-3">
-<rect rx="6" ry="6" x="910" y="92" width="28" height="26" class="combo"/>
-<text x="924" y="105" class="combo tap">Alt+[</text>
-</g>
-<g class="combo combopos-4">
-<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
-<text x="924" y="161" class="combo tap">Alt+&#x27;</text>
-</g>
-<g class="combo combopos-5">
-<rect rx="6" ry="6" x="854" y="85" width="28" height="26" class="combo"/>
-<text x="868" y="98" class="combo tap">Alt+{</text>
-</g>
-<g class="combo combopos-6">
-<rect rx="6" ry="6" x="910" y="36" width="28" height="26" class="combo"/>
-<text x="924" y="49" class="combo tap">Alt+&quot;</text>
-</g>
-<g class="combo combopos-7">
-<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
-<text x="56" y="105" class="combo tap">Alt+`</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -853,10 +825,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
-<text x="56" y="105" class="combo tap">Alt+`</text>
 </g>
 </g>
 </g>
@@ -1140,10 +1108,6 @@ rect.held, rect.combo.held {
 <tspan x="0" dy="-0.6em">KP</tspan><tspan x="0" dy="1.2em">DOT</tspan>
 </text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
-<text x="56" y="105" class="combo tap">Alt+`</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-BT">
@@ -1393,10 +1357,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="42" y="92" width="28" height="26" class="combo"/>
-<text x="56" y="105" class="combo tap">Alt+`</text>
 </g>
 </g>
 </g>
