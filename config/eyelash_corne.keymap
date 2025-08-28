@@ -88,47 +88,6 @@
             key-positions = <28 33>;
             layers = <0>;
         };
-
-        angle_brackets {
-            bindings = <&kp LA(LT)>;
-            key-positions = <38 39>;
-            layers = <0>;
-        };
-
-        parentheses {
-            bindings = <&kp LA(LPAR)>;
-            key-positions = <39 40>;
-            layers = <0>;
-        };
-
-        square_brackets {
-            bindings = <&kp LA(LBKT)>;
-            key-positions = <26 27>;
-            layers = <0>;
-        };
-
-        single_quotes {
-            bindings = <&kp LA(SQT)>;
-            key-positions = <40 41>;
-            layers = <0>;
-        };
-
-        curly_brackets {
-            bindings = <&kp LA(LBRC)>;
-            key-positions = <26 25>;
-            layers = <0>;
-        };
-
-        double_quotes {
-            bindings = <&kp LA(DQT)>;
-            key-positions = <11 12>;
-            layers = <0>;
-        };
-
-        back_quote {
-            bindings = <&kp LA(GRAVE)>;
-            key-positions = <13 14>;
-        };
     };
 
     keymap {
